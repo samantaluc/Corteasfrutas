@@ -76,7 +76,7 @@ function draw() {
 
 
 function Monster(){
-  if(World.frameCount%200===0){
+  if(World.frameCount%200===0){ 
     monster=createSprite(400,200,20,20);
     monster.addAnimation("moving", monsterImage);
     monster.y=Math.round(random(100,550));
